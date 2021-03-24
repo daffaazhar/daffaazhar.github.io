@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7em;
+    background-color: #fff;
+}
+
+.hero-title {
+    position: relative;
+    bottom: 50px;
+}
+
+.hero-image img {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+#title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    line-height: 1.3em;
+    overflow: hidden;
+}
+
+.steve-jobs-years {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    color: #4b4b4b;
+    margin-top: 12px;
+}
+
+#tribute-info {
+    background-color: #F6F6F6;
+    padding-top: 90px;
+    padding-bottom: 110px;
+    padding-left: 22.5%;
+    padding-right: 22.5%;
+}
+
+#tribute-info {
+    text-align: center;
+}
+
+#tribute-info h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0.5em;
+}
+
+#tribute-info p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.timeline {
+    padding: 90px 22.5% 110px 22.5%;
+}
+
+.timeline h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+ul, li {
+    padding-left: 1em;
+}
+
+.timeline-list {
+    margin-top: 4em;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.45em;
+    position: relative;
+  }
+  
+h3::before {
+    content: url(img/chevron-right-solid.svg);
+    position: absolute;
+    top: 6px;
+    left: -1.5em;
+    width: .60em;
+    height: .30em;
+}
+
+.list-paragraph {
+    margin-top: .4em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+.timeline-list li {
+    margin-top: 2em;
+}
+
+blockquote {
+    border-left: 2px solid #000;
+    padding-left: 2em;
+    margin: 1em 0 1em 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-style: italic;
+}
+
+.steve-jobs-quotes {
+    position: relative;
+    background-color: #212121;
+    display: flex;
+    padding: 50px 20% 50px 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sj-quotes p {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+cite {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: unset;
+    color: #fff;
+    text-align: right;
+    left: 1em;
+}
+
+cite::before {
+    position: absolute;
+    content: '-';
+    color: #fff;
+    font-weight: 900;
+    left: -1em;
+}
+
+footer {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Media Queries for Tablet*/
+
+@media screen and (max-width: 864px) {    
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        padding: 7em 10% 0 10%;
+    }
+
+    #title {
+        font-family: 'Poppins', sans-serif;
+        font-size: 36px;
+        line-height: 1.3em;
+    }
+
+    .hero-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    #tribute-info {
+        background-color: #F6F6F6;
+        padding-top: 70px;
+        padding-bottom: 90px;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    .timeline {
+        padding: 50px 7.5% 70px 7.5%;
+    }
+
+    .timeline h2 {
+        margin-bottom: 0;
+    }
+
+    .timeline-list {
+        margin-top: 3em;
+    }
+
+    .steve-jobs-quotes {
+        padding: 50px 7.5% 50px 7.5%;
+    }
+
+    footer {
+        font-size: 14px;
+        margin: 0 5% 0 5%;
+    }
+}
+
+/* Media Queries for Phones*/
+@media screen and (max-width: 600px) {
+    .hero-section {
+        display: block;
+    }
+
+    .hero-image {
+        width: auto;
+    }
+
+    #tribute-info {
+        padding: 50px 7.5% 70px 7.5%;
+    }
+
+    #tribute-info h2 {
+        text-align: left;
+        font-size: 28px;
+    }
+
+    #tribute-info p {
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .timeline {
+        padding-top: 50px 7.5% 50px 7.5%;
+    }
+
+    .timeline h2 {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .timeline-list {
+        margin-top: 1em;
+    }
+
+    .timeline-list li {
+        margin-top: 1.5em;
+    }
+
+    ul, li {
+        padding: 0;
+    }
+
+    .list-paragraph {
+        margin-top: .4em;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+
+    blockquote {
+        font-style: italic;
+        font-style: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+        margin: 0 5% 0 5%;
+    }
+}
