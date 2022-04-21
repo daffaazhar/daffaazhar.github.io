@@ -1,5 +1,5 @@
 # Steve Jobs Tribute Page
-This Steve Jobs tribute page was created to complete the [FreeCodeCamp](freecodecamp.org) Responsive Web Design certification. This simple page displays some information about Steve Jobs, founder of Apple Inc, such as who Steve Jobs is, how Steve Jobs' career timeline, etc. To see the results of this page, you can click [here](https://tribute-page-fcc.web.app/).
+This Steve Jobs tribute page was created to complete the [FreeCodeCamp](https://freecodecamp.org) Responsive Web Design certification. This simple page displays some information about Steve Jobs, founder of Apple Inc, such as who Steve Jobs is, how Steve Jobs' career timeline, etc. To see the results of this page, you can click [here](https://tribute-page-fcc.web.app/).
 
 ### Objectives
 - Create a fully responsive design without the use of external libraries;
